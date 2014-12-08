@@ -9,7 +9,15 @@
 
   <body>
 
-    <div id="typeselect">  </div>
+    <div id="typeselect">
+        <form> 
+            <label>Bridge<input value="1" type="radio" name="formselector" onclick="displayForm(this)"></label>     
+            <label>Relay<input value="2" type="radio" name="formselector" onclick="displayForm(this)"></label>
+            <label>Exit<input value="3" type="radio" name="formselector" onclick="displayForm(this)"></label>
+            <label>Onion Site<input value="4" type="radio" name="formselector" onclick="displayForm(this)"></label>
+            <label>Display all torrc options (alpha)<input value="5" type="radio" name="formselector" onclick="displayForm(this)"></label>  
+        </form> 
+    </div>
 
 <!-- bridge -->
 
