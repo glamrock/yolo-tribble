@@ -5,7 +5,7 @@ function displayForm(c){
     if(c.value == "1"){ 
         document.getElementById("bridgeform").style.visibility='visible'; 
         document.getElementById("relayform").style.visibility='hidden'; 
-        document.getElementById("exitform").style.visibility='visible'; 
+        document.getElementById("exitform").style.visibility='hidden'; 
         document.getElementById("onionform").style.visibility='hidden'; 
     } 
     else if(c.value =="2"){ 
