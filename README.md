@@ -7,7 +7,7 @@ So the idea here is to make it easy to generate a custom torrc file, including c
 **A**: Because I like javascript and want this to run client-side.
 
 **Q**: Why a torrc generator?<br/>
-**A**: After talking with various hackers and end-users, it became clear that 
+**A**: After talking with various hackers and end-users, it became clear that people aren't always sure what options are useful or required, and there are occasionally calls for a torrc generator specifically.
 
 **Q**: What's the license? <br/>
 **A**: The code here is presented under GPL3. The torrc files produced belong to the people who make them (that's you, the user).
